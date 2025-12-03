@@ -226,9 +226,11 @@ Truly, who among us hasn't needed to extend FizzBuzz with custom output formats?
 
 ## What This Means
 
-In my mind, this mainly shows how (these) LLMs are desperate to give you what you want, even if it isn't a very good idea. It'll happily give you over-engineered code if that's what you ask for, and it's the same in real-world software engineering (but there it's managers making requests or developers following trends and 'best practice'.)
+LLMs are desperate to give you what you want, even if it isn't a very good idea. They will happily give you over-engineered code if that's what you ask for.  
 
-Design patterns exist because they solve real problems in large, evolving codebases. But they're tools, not goals. When you tell someone (or something) to use patterns "liberally," you get code that uses patterns liberally - whether they're needed or not.
+It's the same in real-world software engineering, except there, it's usually managers making the dubious requests. Or, developers reach for the one size fits all solutions of SOLID and 'Clean Code' in search of best practice.
+
+Design patterns exist because they solve real problems in large, evolving codebases. But they're tools, rather than goals. When you tell someone (or something) to use patterns "liberally," you get code that uses patterns liberally - whether they're needed or not.
 
 The pattern-brained outputs aren't *wrong*. They're technically correct, extensible, testable, and follow SOLID principles. They're also absurd overkill for the problems at hand.
 
@@ -244,4 +246,4 @@ Or do optimize for patterns, and enjoy your `AbstractSingletonProxyFactoryBean`.
 
 *Cost of this experiment: ~$0.50 in API calls.*
 
-*Code: [github link]*
+*Code: [github link](https://github.com/danhussey/code-pattern-brained)*
